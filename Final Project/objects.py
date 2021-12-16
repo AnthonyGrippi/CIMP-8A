@@ -31,6 +31,6 @@ class Meal:
         return self.__meal_name
 
     def set_meal_thumb(self, meal_thumb):
-        self.__meal_meal = meal_thumb
+        self.__meal_thumb = meal_thumb
     
     

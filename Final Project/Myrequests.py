@@ -42,7 +42,7 @@ def get_meals_by_category(category):
 
     return meals
 
-def get_meal_by_name(meal):
+def search_meal_by_name(meal):
     url = "www.themealdb.com/api/json/v1/1/search.php?s=" + meal
     f = request.urlopen(url)
 
